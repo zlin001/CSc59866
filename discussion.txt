@@ -1,0 +1,8 @@
+natural language processing: summarize, keyword extraction, translation
+
+face recognization: detect people lying or not
+	combine image processing, voice detectation, and nlp to detect people lying or not
+
+automatic drive
+
+street parking
