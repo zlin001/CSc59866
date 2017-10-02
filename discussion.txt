@@ -1,8 +1,16 @@
 natural language processing: summarize, keyword extraction, translation
 
-face recognization: detect people lying or not
-	combine image processing, voice detectation, and nlp to detect people lying or not
+face recognition: detect people lying or not
+	combine image processing, voice detection, and nlp to detect people lying or not
 
 automatic drive
 
 street parking
+
+10-2-17
+Yelp business reviews
+		-- scrape reviews about restaurants
+		-- nlp to detect sentiment about restaurant
+		-- get better overall sentiment (better than just star ratings)
+		-- ???
+		-- profit
