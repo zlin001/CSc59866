@@ -1,1 +1,24 @@
-10/27/17
+/*10/27/17
+
+Group met with Ammar's project mentor
+
+We all got the outline of the News to stocket market behavior project, basically to use past news headline and the stocket market 
+behavior of the same period to predict hehavior of future stocket market. 
+
+Approaches:
+-Two data sources needed: 
+1) set of headlines in the past
+2) set of stockprices in the past
+
+-Filters using NLP semantic analysis tools for headlines and stock prices 
+
+-Filtered headlines and stockprices need to go through ML training to reach the prediction output we need.  ML training involving:
+  -Bayesian classifier 
+  -Logistic Regression
+  -SVM
+  -Neural networks
+  
+At the end of the discussion, we were told to have two member collects headlines and stock prices and structure them 
+, and two members work on the ML training.
+*/
+
