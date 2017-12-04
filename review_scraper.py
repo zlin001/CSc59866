@@ -3,28 +3,6 @@ from bs4 import BeautifulSoup
 import requests
 import re
 
-# url = "https://www.yelp.com/biz/aria-kabab-flushing-3"
-#
-# def extract_reviews(page_url):
-#     html = requests.get(page_url)
-#
-#     soup = BeautifulSoup(html.text, "html.parser")
-#
-#
-#     # print(soup.prettify().encode("utf-8"))
-#     container = soup.findAll('div', attrs={ 'class': 'review-content'})
-#
-#     next_button = soup.findAll('a', attrs={'class': 'next'})
-#     print(next_button)
-#     count = 0
-#     # for review in container:
-#     #     print(count)
-#     #     print(review.find('p').text)
-#     #     count = count + 1
-#     # print(container)
-#
-# extract_reviews(url)
-
 def crawl_pages(base_url):
     count = 0
     reviews_in_page = []
