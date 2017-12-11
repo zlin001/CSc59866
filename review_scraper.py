@@ -23,5 +23,5 @@ def crawl_pages(base_url):
 
     return reviews_in_page
 
-url = "https://www.yelp.com/biz/aria-kabab-flushing-3?start="
+url = "https://www.yelp.com/biz/duzan-mediterranean-grill-astoria?start="
 print(crawl_pages(url))
